@@ -1,0 +1,5 @@
+{
+  "name": "VerandaMeister Dashboard",
+  "description": "A high-end quote generator and management dashboard for VerandaMeister, featuring real-time statistics and AI-assisted quote descriptions.",
+  "requestFramePermissions": []
+}
