@@ -113,7 +113,7 @@ const Dashboard: React.FC<DashboardProps> = ({ quotes, onNewQuote, onDelete, onS
         <StatCard label="GEACCEPTEERD WAARDE" value={`€ ${acceptedValue.toLocaleString('nl-NL')}`} />
       </div>
 
-      <div className="bg-white rounded-[2.5rem] shadow-sm border border-gray-100 overflow-hidden">
+      <div className="bg-white rounded-[2.5rem] shadow-sm border border-gray-100 overflow-visible">
         <div className="p-10">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
             <div>

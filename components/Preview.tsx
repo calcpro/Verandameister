@@ -109,6 +109,7 @@ const Preview: React.FC<PreviewProps> = ({ quote, onBack }) => {
           <p>{client.address}</p>
           <p>{client.zipCode} {client.city}</p>
           {client.email && <p className="text-gray-500">{client.email}</p>}
+          {client.phone}
         </div>
 
         {/* Info Bar */}
